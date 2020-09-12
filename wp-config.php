@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'database_name_here' );
+define( 'DB_NAME', 'test_db' );
 
 /** MySQL database username */
-define( 'DB_USER', 'username_here' );
+define( 'DB_USER', 'root' );
 
 /** MySQL database password */
-define( 'DB_PASSWORD', 'password_here' );
+define( 'DB_PASSWORD', '' );
 
 /** MySQL hostname */
-define( 'DB_HOST', 'localhost' );
+define( 'DB_HOST', 'localhost:3307' );
 
 /** Database Charset to use in creating database tables. */
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'utf8mb4' );
 
 /** The Database Collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', '' );
@@ -46,14 +46,14 @@ define( 'DB_COLLATE', '' );
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         'put your unique phrase here' );
-define( 'SECURE_AUTH_KEY',  'put your unique phrase here' );
-define( 'LOGGED_IN_KEY',    'put your unique phrase here' );
-define( 'NONCE_KEY',        'put your unique phrase here' );
-define( 'AUTH_SALT',        'put your unique phrase here' );
-define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
-define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
-define( 'NONCE_SALT',       'put your unique phrase here' );
+define( 'AUTH_KEY',         'tS8k!Py2~C7_i@/>2EL/Z[^PvrQcSG:GRCB~nAF]DNiF)9cpM80kH_{dZ9GPGeUW' );
+define( 'SECURE_AUTH_KEY',  'OSsr`yx|qgOX_8c#jcrm7yTPSL~_VJ7DEhI}d rta%!v&n+ZbqCoHF@QO=-MH4lF' );
+define( 'LOGGED_IN_KEY',    'eSBh![[ZKcE9l T]TaAO.%nBHbvmiK-]!z?^Q^?L/x`a-FKF~pam/BdcvU/G_9Y_' );
+define( 'NONCE_KEY',        'qt99uSNiqm>z2WpUTC`0uB D{9L-B1qZ?me2bB/Y5T[tM`^RG=Cpw7Qj0TqouiC!' );
+define( 'AUTH_SALT',        'xIEGEvi1:l{I)|,9|p8hjM7mMB.y,L0LE[fvK1Vq /fQ^lHze,+]g.bX#cwftB%k' );
+define( 'SECURE_AUTH_SALT', 'Uh(~7-Vte(g`S8PT1~^t4LR5~jqWiF{;@inM DYUE+C0.V+~/@%NEpK=&H2GQI00' );
+define( 'LOGGED_IN_SALT',   '?~Rk%S6cewienn,)L5+tg~J]ll>WvzC`s{fthbf0S=T%~RL(!h*?9|SfY:_082CR' );
+define( 'NONCE_SALT',       'ke7pBv.Y+o<pSI |]p?W?Uk8T`N<qI,Rx^GL5SkkB@Q)5STb` <UZZC;{d~s`y)8' );
 
 /**#@-*/
 
